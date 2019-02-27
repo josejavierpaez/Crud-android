@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        ConexionSQLiteHelper conexicion = new ConexionSQLiteHelper(this, "bd_usuarios"
+        ConexionSQLiteHelper conn = new ConexionSQLiteHelper(this, "bd_usuarios"
                 , null, 1);
 
     }
@@ -27,9 +27,15 @@ public class MainActivity extends AppCompatActivity {
             case R.id.btnConsultarUsuario:
                 miIntent = new Intent(MainActivity.this, ConsultarUsuarioActivity.class);
                 break;
+
+            case R.id.btnConsultarUsuarioSpinner:
+                miIntent = new Intent(MainActivity.this,ConsultaComboActivity.class);
+                break;
         }
 
-        startActivity(miIntent);
+      if (miIntent!= null) {
+          startActivity(miIntent);
+      }
 
     }
 }

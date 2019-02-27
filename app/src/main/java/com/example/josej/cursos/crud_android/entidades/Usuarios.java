@@ -14,6 +14,8 @@ public class Usuarios {
         this.telefono = telefono;
     }
 
+    public Usuarios(){}
+
     public Integer getId() {
         return id;
     }

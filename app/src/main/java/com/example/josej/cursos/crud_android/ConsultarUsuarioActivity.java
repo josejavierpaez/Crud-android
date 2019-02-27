@@ -21,7 +21,10 @@ public class ConsultarUsuarioActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_consultar_ususarios);
 
+        //abrimos la DB
         conn = new ConexionSQLiteHelper(getApplicationContext(), "bd_usuarios", null, 1);
+
+        //convirtiendo en objetos los componentes de la vista
         campoId = (EditText) findViewById(R.id.documentoId);
         campoNombre = (EditText) findViewById(R.id.campoNombreConsulta);
         campoTelefono = (EditText) findViewById(R.id.campoTelefonoConsulta);
@@ -46,6 +49,7 @@ public class ConsultarUsuarioActivity extends AppCompatActivity {
         }
     }
 
+    //metodo para eliminar
     private void eliminar() {
         SQLiteDatabase db = conn.getWritableDatabase();//indicamos que escribiremos en la DB
         String parametros[] = {campoId.getText().toString()};

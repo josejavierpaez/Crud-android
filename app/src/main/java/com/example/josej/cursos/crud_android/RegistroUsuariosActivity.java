@@ -11,7 +11,7 @@ import android.widget.Toast;
 import com.example.josej.cursos.crud_android.utilidades.Utilidades;
 
 public class RegistroUsuariosActivity extends AppCompatActivity {
-
+    //convirtiendo en objetos los componentes de la vista
     EditText campoId, campoNombre, campoTelefono;
 
     @Override
