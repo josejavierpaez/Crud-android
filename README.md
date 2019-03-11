@@ -17,6 +17,7 @@ Siéntete libre de darme cualquier tipo de feedback
 4. mostrar data
 5. mostrar una lista de usuarios utilizando spinners
 6. mostrar una lista de usuarios utilizando un listView
+7. mostrar la data en un RecyclerView 
 
 # ¿QUE PUEDE HACER EL CRUD ACTUAMENTE?
 
@@ -25,10 +26,11 @@ Siéntete libre de darme cualquier tipo de feedback
 3. eliminar data
 4. mostrar data
 5. mostara una lista de usuarios utilizando spinners
+6. mostar una lista de usuarios utilizando un listView
 
 # ¿QUE FALTA POR HACER?
 
-1. mostara una lista de usuarios utilizando un listView
+1. mostrar la data en un RecyclerView 
 
 
 # Crud-android con SQLite - English Description
@@ -45,12 +47,13 @@ Feel free to give me any kind of feedback
 
 # WHAT CAN THIS CRUD DO?
 
-2. insert data
-3. update data
-4. delete data
-5. show data
-6. mostara a list of users using spinners
-7. show a list of users using a listView
+1. insert data
+2. update data
+3. delete data
+4. show data
+5. show a list of users using spinners
+6. show a list of users using a listView
+7. show the data in a RecyclerView
 
 # WHAT CAN THE CRUD CURRENTLY DO?
 
@@ -59,9 +62,10 @@ Feel free to give me any kind of feedback
 3. delete data
 4. show data
 5. show a list of users using spinners
+6. show a list of users using a listView
 
 # WHAT IS THERE LEFT TO DO?
 
-1. will list a list of users using a listView
+1. show the data in a RecyclerView
 
 
